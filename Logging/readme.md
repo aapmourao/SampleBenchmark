@@ -1,6 +1,6 @@
 # Benchmark results
 
-===========================
+===
 Interactions set to 10 000
 ===========================
 
@@ -67,7 +67,7 @@ SimpleFunctionLogging:
 Given these factors, SimpleFunctionCompileTimeLogging is the preferable choice for use in an AWS Lambda environment.
 
 
-===========================
+===
 Interactions set to 100 000
 ===========================
 
