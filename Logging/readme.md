@@ -1,6 +1,8 @@
 # Benchmark results
 
-
+===========================
+Interactions set to 10 000
+===========================
 
 | Method | Mean | Error | StdDev | Gen0 | Allocated |
 | ------------------------------------------ | ----------: |----------: | ----------: |---------: | ----------: |
@@ -8,7 +10,6 @@
 | BenchmarkSimpleFunctionLogging            | 11.071 ms | 0.2094 ms | 0.1958 ms | 703.1250 |   8.54 MB 
 |
 
-Number of Iterations used: 10000
 
 ## Summary (by Copilot):
 
@@ -57,3 +58,14 @@ SimpleFunctionLogging:
 - `SimpleFunctionLogging` is less efficient and may result in higher costs and slower performance in an AWS Lambda environment.
 
 Given these factors, SimpleFunctionCompileTimeLogging is the preferable choice for use in an AWS Lambda environment.
+
+
+===========================
+Interactions set to 100 000
+===========================
+
+| Method                                    | Mean      | Error    | StdDev   | Gen0      | Allocated |
+|------------------------------------------ |----------:|---------:|---------:|----------:|----------:|
+| BenchmarkSimpleFunctionCompileTimeLogging |  91.60 ms | 1.125 ms | 0.878 ms | 5833.3333 |  70.19 MB |
+| BenchmarkSimpleFunctionLogging            | 120.04 ms | 2.369 ms | 3.618 ms | 7000.0000 |  85.45 MB |
+

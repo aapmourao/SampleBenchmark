@@ -8,7 +8,7 @@ public class FunctionBenchmarkExecutor
 
     SimpleFunctionCompileTimeLogging simpleFunctionCompileTimeLogging; 
     SimpleFunctionLogging simpleFunctionLogging;
-    const int iterations = 10000;
+    const int iterations = 100000;
 
     public FunctionBenchmarkExecutor() {
 

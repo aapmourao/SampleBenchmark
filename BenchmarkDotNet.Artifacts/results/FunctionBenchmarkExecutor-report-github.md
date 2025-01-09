@@ -8,7 +8,7 @@ BenchmarkDotNet v0.14.0, Windows 10 (10.0.19045.5247/22H2/2022Update)
 
 
 ```
-| Method                                    | Mean      | Error     | StdDev    | Gen0     | Allocated |
-|------------------------------------------ |----------:|----------:|----------:|---------:|----------:|
-| BenchmarkSimpleFunctionCompileTimeLogging |  8.731 ms | 0.1731 ms | 0.1852 ms | 578.1250 |   7.02 MB |
-| BenchmarkSimpleFunctionLogging            | 11.071 ms | 0.2094 ms | 0.1958 ms | 703.1250 |   8.54 MB |
+| Method                                    | Mean      | Error    | StdDev   | Gen0      | Allocated |
+|------------------------------------------ |----------:|---------:|---------:|----------:|----------:|
+| BenchmarkSimpleFunctionCompileTimeLogging |  91.60 ms | 1.125 ms | 0.878 ms | 5833.3333 |  70.19 MB |
+| BenchmarkSimpleFunctionLogging            | 120.04 ms | 2.369 ms | 3.618 ms | 7000.0000 |  85.45 MB |
