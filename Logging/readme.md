@@ -9,7 +9,14 @@ Interactions set to 10 000
 | BenchmarkSimpleFunctionCompileTimeLogging |  8.731 ms | 0.1731 ms | 0.1852 ms | 578.1250 |   7.02 MB
 | BenchmarkSimpleFunctionLogging            | 11.071 ms | 0.2094 ms | 0.1958 ms | 703.1250 |   8.54 MB 
 |
+ **Legends**
 
+-  Mean      : Arithmetic mean of all measurements
+-  Error     : Half of 99.9% confidence interval
+-  StdDev    : Standard deviation of all measurements
+-  Gen0      : GC Generation 0 collects per 1000 operations
+-  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+-  1 ms      : 1 Millisecond (0.001 sec)
 
 ## Summary (by Copilot):
 
@@ -69,3 +76,11 @@ Interactions set to 100 000
 | BenchmarkSimpleFunctionCompileTimeLogging |  91.60 ms | 1.125 ms | 0.878 ms | 5833.3333 |  70.19 MB |
 | BenchmarkSimpleFunctionLogging            | 120.04 ms | 2.369 ms | 3.618 ms | 7000.0000 |  85.45 MB |
 
+ **Legends**
+
+-  Mean      : Arithmetic mean of all measurements
+-  Error     : Half of 99.9% confidence interval
+-  StdDev    : Standard deviation of all measurements
+-  Gen0      : GC Generation 0 collects per 1000 operations
+-  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+-  1 ms      : 1 Millisecond (0.001 sec)
