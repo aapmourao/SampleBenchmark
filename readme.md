@@ -6,4 +6,4 @@ dotnet run -c Release
 ```
 ## Logging vs Compile Time Logging
 
-Compares usage of Logging with Compile Time Logging
+Compares usage of Logging with Compile Time Logging. details [here](./Logging/readme.md)

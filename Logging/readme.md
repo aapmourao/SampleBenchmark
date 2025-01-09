@@ -1,18 +1,18 @@
 # Benchmark results
 
-Iterations: 10000
 
-| Method                                    | Mean      | Error     | StdDev    | Gen0     | Allocated 
-|
-|------------------------------------------ |----------:|----------:|----------:|---------:|----------:|
-| BenchmarkSimpleFunctionCompileTimeLogging |  8.731 ms | 0.1731 ms | 0.1852 ms | 578.1250 |   7.02 MB 
-|
+
+| Method | Mean | Error | StdDev | Gen0 | Allocated |
+| ------------------------------------------ | ----------: |----------: | ----------: |---------: | ----------: |
+| BenchmarkSimpleFunctionCompileTimeLogging |  8.731 ms | 0.1731 ms | 0.1852 ms | 578.1250 |   7.02 MB
 | BenchmarkSimpleFunctionLogging            | 11.071 ms | 0.2094 ms | 0.1958 ms | 703.1250 |   8.54 MB 
 |
 
+Number of Iterations used: 10000
+
 ## Summary (by Copilot):
 
-When considering the use of `SimpleFunctionCompileTimeLogging` and `SimpleFunctionLogging` in an AWS Lambda environment, several factors come into play, including performance, memory usage, cold start times, and cost. Here's an analysis of the impact of each approach:
+When considering the use of `SimpleFunctionCompileTimeLogging` and `SimpleFunctionLogging` use case in an AWS Lambda environment, several factors come into play, including performance, memory usage, cold start times, and cost. Here's an analysis of the impact of each approach:
 
 ### **Performance**
 SimpleFunctionCompileTimeLogging:
